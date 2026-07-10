@@ -1,0 +1,63 @@
+{
+  "source_image": "samples/sample_invoice.png",
+  "skew_angle_corrected": -0.57,
+  "num_regions": 4,
+  "num_tables": 1,
+  "num_text_blocks": 3,
+  "num_flagged_low_confidence": 0,
+  "processing_time_sec": 1.943,
+  "regions": [
+    {
+      "type": "text",
+      "bbox": [
+        50,
+        36,
+        522,
+        161
+      ],
+      "text": "ACME MEDICAL SUPPLIES Invoice #INV-2026\u20140731 Date: 10 July 2026",
+      "avg_confidence": 90.9,
+      "low_confidence": false,
+      "word_count": 9
+    },
+    {
+      "type": "text",
+      "bbox": [
+        48,
+        187,
+        636,
+        308
+      ],
+      "text": "This invoice covers the supply of medical consumables delivered to Pune General Hospital under purchase order PO-44231. Payment is due within 30 days of receipt.",
+      "avg_confidence": 93.9,
+      "low_confidence": false,
+      "word_count": 25
+    },
+    {
+      "type": "table",
+      "bbox": [
+        56,
+        368,
+        950,
+        713
+      ],
+      "text": "Item Qty Price Surgical Gloves (box) 50 450.00 Syringes 5ml 200 1200.00 Gauze Rolls 100 800.00 Sanitizer 500ml 80 960.00",
+      "avg_confidence": 91.8,
+      "low_confidence": false,
+      "word_count": 20
+    },
+    {
+      "type": "text",
+      "bbox": [
+        37,
+        726,
+        379,
+        807
+      ],
+      "text": "Total Amount: Rs, 3410.00 Thank you for your business.",
+      "avg_confidence": 94.4,
+      "low_confidence": false,
+      "word_count": 9
+    }
+  ]
+}
